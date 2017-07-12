@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/key_new_in_search_guarantee"
+        android:title="@string/pref_new_in_search_guarantee"
+        android:disableDependentsState="true"
+        android:visibility="invisible"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:key="@string/key_new_in_days"
+        android:title="@string/pref_new_in_days"
+        android:dependency="@string/key_new_in_search_guarantee"
+        android:defaultValue="30"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditTextPreference
+        android:key="@string/key_billboard_least_play_count"
+        android:title="@string/pref_billboard_least_play_count"
+        android:defaultValue="3"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <ListPreference
+        android:key="@string/key_number_length"
+        android:title="@string/pref_number_length"
+        android:defaultValue="5"
+        android:entries="@array/pref_number_length_array"
+        android:entryValues="@array/pref_number_length_array"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+    <CheckBoxPreference
+        android:key="@string/key_auto_refresh_queue"
+        android:title="@string/pref_auto_refresh_queue"
+        android:visibility="invisible"
+        android:defaultValue="true" />
+    <ListPreference
+        android:key="@string/key_queue_refresh_frequency"
+        android:title="@string/pref_queue_refresh_frequency"
+        android:dependency="@string/key_auto_refresh_queue"
+        android:defaultValue="180"
+        android:entries="@array/pref_refresh_frequency_titles"
+        android:entryValues="@array/pref_refresh_frequency_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

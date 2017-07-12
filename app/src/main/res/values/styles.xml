@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/dark_primary_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="textColor">@color/text_icons</item>
+    </style>
+    <style name="StyleButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/material_button</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/toolbar_textsize</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

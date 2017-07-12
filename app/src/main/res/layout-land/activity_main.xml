@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_above="@+id/fragment_control"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/layout_side_width"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="@string/title_queue"
+                android:gravity="center_vertical"
+                android:background="@color/primary_color"/>
+            <fragment
+                android:id="@+id/left_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/menu_button_margin"
+                android:name="com.crazyktv.wcf.android.FragmentQueue"
+                tools:layout="@layout/fragment_queue" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#202020"></LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/layout_side_width"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="@string/title_number"
+                android:gravity="center_vertical"
+                android:background="@color/primary_color"/>
+            <fragment
+                android:layout_width="@dimen/layout_side_width"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/menu_button_margin"
+                android:name="com.crazyktv.wcf.android.FragmentNumber"
+                tools:layout="@layout/fragment_number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#202020"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/primary_color" />
+
+            <fragment
+                android:name="com.crazyktv.wcf.android.FragmentMenu"
+                android:layout_margin="@dimen/menu_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_menu"
+                android:id="@+id/container" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.crazyktv.wcf.android.FragmentControl"
+        tools:layout="@layout/fragment_control"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

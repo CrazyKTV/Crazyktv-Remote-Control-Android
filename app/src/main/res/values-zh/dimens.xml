@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize_numpad_request">24sp</dimen>
+    <dimen name="menu_button_text_size_small">16sp</dimen>
+</resources>

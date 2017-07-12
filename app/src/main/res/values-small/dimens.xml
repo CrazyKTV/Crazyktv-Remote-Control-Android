@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_button_tile_text_size">16sp</dimen>
+    <dimen name="menu_button_tile_margin">4dp</dimen>
+    <dimen name="menu_button_tile_size">32dp</dimen>
+    <dimen name="menu_button_size">72dp</dimen>
+    <dimen name="menu_button_margin">4dp</dimen>
+    <dimen name="menu_button_text_size">14sp</dimen>
+    <dimen name="menu_button_text_size_small">12sp</dimen>
+    <dimen name="toolbar_height">32dp</dimen>
+    <dimen name="toolbar_textsize">16sp</dimen>
+    <dimen name="number_textsize">20sp</dimen>
+</resources>

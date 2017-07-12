@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="@string/key_ui_lang"
+        android:title="@string/pref_ui_lang"
+        android:defaultValue="0"
+        android:entries="@array/pref_ui_lang_list"
+        android:entryValues="@array/pref_ui_lang_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+    <CheckBoxPreference
+        android:key="@string/key_long_press_cut_song"
+        android:title="@string/pref_long_press_cut_song"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="@string/key_long_press_replay_song"
+        android:title="@string/pref_long_press_replay_song"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="@string/key_show_control_on_main"
+        android:title="@string/pref_show_control_on_main"
+        android:defaultValue="false" />
+</PreferenceScreen>

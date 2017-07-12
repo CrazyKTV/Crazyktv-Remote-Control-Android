@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/list_song_sort"
+        android:title="@string/action_sort"
+        android:orderInCategory="300"
+        android:icon="@mipmap/ic_sort_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_word_asc"
+                    android:title="@string/action_sort_word_asc"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/action_sort_word_desc"
+                    android:title="@string/action_sort_word_desc" />
+                <item
+                    android:id="@+id/action_sort_song_name_asc"
+                    android:title="@string/action_sort_song_name_asc"/>
+                <item
+                    android:id="@+id/action_sort_song_name_desc"
+                    android:title="@string/action_sort_song_name_desc"/>
+                <item
+                    android:id="@+id/action_sort_newest"
+                    android:title="@string/action_sort_newest" />
+                <item
+                    android:id="@+id/action_sort_oldest"
+                    android:title="@string/action_sort_oldest" />
+                <item
+                    android:id="@+id/action_sort_playcount_desc"
+                    android:title="@string/action_sort_playcount_desc" />
+                <item
+                    android:id="@+id/action_sort_playcount_asc"
+                    android:title="@string/action_sort_playcount_asc" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

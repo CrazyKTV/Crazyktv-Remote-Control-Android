@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_padding"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_main_button_size"
+        android:gravity="center">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_male"
+            android:drawableTop="@mipmap/ic_singer_male"
+            android:text="@string/menu_singer_male" />
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_female"
+            android:drawableTop="@mipmap/ic_singer_female"
+            android:text="@string/menu_singer_female" />
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_group"
+            android:drawableTop="@mipmap/ic_singer_group"
+            android:text="@string/menu_singer_group" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_main_button_size"
+        android:gravity="center">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_foreign_male"
+            android:drawableTop="@mipmap/ic_singer_foreign_male"
+            android:text="@string/menu_singer_foreign_male" />
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_foreign_female"
+            android:drawableTop="@mipmap/ic_singer_foreign_female"
+            android:text="@string/menu_singer_foreign_female" />
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_foreign_group"
+            android:drawableTop="@mipmap/ic_singer_foreign_group"
+            android:text="@string/menu_singer_foreign_group" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_main_button_size"
+        android:gravity="center">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/menu_main_button_size"
+            android:textSize="@dimen/menu_button_text_size"
+            android:id="@+id/btn_menu_singer_other"
+            android:drawableTop="@mipmap/ic_singer_other"
+            android:text="@string/menu_singer_other" />
+    </LinearLayout>
+</LinearLayout>

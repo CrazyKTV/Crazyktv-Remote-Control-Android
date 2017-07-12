@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name" translatable="false">CrazyKTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_word_asc">Word ASC</string>
+    <string name="action_sort_word_desc">Word DESC</string>
+    <string name="action_sort_song_name_asc">Song name ASC</string>
+    <string name="action_sort_song_name_desc">Song name DESC</string>
+    <string name="action_sort_newest">Newest first</string>
+    <string name="action_sort_oldest">Oldest first</string>
+    <string name="action_sort_playcount_desc">Play count DESC</string>
+    <string name="action_sort_playcount_asc">Play count ASC</string>
+    <string name="action_sort_singer_name_asc">Singer name ASC</string>
+    <string name="action_sort_singer_name_desc">Singer name DESC</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_shutdown">Shutdown</string>
+    <string name="alert_are_you_sure_exit_now">Are you sure exit now?</string>
+    <string name="alert_are_you_sure_shutdown_now">Are you sure shutdown now?</string>
+
+    <!-- TITLE -->
+    <string name="title_queue">Queue</string>
+    <string name="title_main" translatable="false">CrazyKTV</string>
+    <string name="title_number">Number</string>
+    <string name="title_control">Control</string>
+	
+    <string name="string_priority">PRIORITY</string>
+    <string name="string_request">REQUEST</string>
+    <string name="string_loading">Loading</string>
+    <string name="string_song_empty">Empty list</string>
+    <string name="string_singer_empty">Empty list</string>
+    <string name="string_delete">DELETE</string>
+
+    <string name="string_request_success">Request Success</string>
+    <string name="string_request_fail">Request Fail</string>
+    <string name="string_connection_error">Connection ERROR\nPlease check the network setting</string>
+
+    <!--MENU-->
+    <string name="menu_singer">Singer</string>
+    <string name="menu_lang">Language</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_chorus">Chorus</string>
+    <string name="menu_billboard">Billboard</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_new">New</string>
+
+    <string name="menu_singer_male">Male</string>
+    <string name="menu_singer_female">Female</string>
+    <string name="menu_singer_group">Group</string>
+    <string name="menu_singer_foreign_male">Foreign Male</string>
+    <string name="menu_singer_foreign_female">Foreign Female</string>
+    <string name="menu_singer_foreign_group">Foreign Group</string>
+    <string name="menu_singer_other">Other</string>
+
+    <string name="menu_lang_chinese">Mandarin</string>
+    <string name="menu_lang_taiwanese">Taiwanese</string>
+    <string name="menu_lang_cantonese">Cantonese</string>
+    <string name="menu_lang_japanese">Japanese</string>
+    <string name="menu_lang_english">English</string>
+    <string name="menu_lang_korea">Korea</string>
+    <string name="menu_lang_hakka">Hakka</string>
+    <string name="menu_lang_children">Children\'s</string>
+    <string name="menu_lang_other">Other</string>
+    <string name="menu_lang_aborigine">Aborigine</string>
+
+    <string name="menu_word_1">1 word</string>
+    <string name="menu_word_2">2 words</string>
+    <string name="menu_word_3">3 words</string>
+    <string name="menu_word_4">4 words</string>
+    <string name="menu_word_5">5 words</string>
+    <string name="menu_word_6">6 words</string>
+    <string name="menu_word_7">7 words</string>
+    <string name="menu_word_8">8 words</string>
+    <string name="menu_word_9">9 words</string>
+    <string name="menu_word_10">more than 9</string>
+
+    <string name="search_singer">Search Singer</string>
+    <string name="search_song">Search Song</string>
+
+    <string name="string_click_back_one_more_time_to_quit">Click \"BACK\" One More Time To Quit</string>
+    <string name="string_queue">QUEUE</string>
+    <!-- CONTROL -->
+    <string name="control_cut">CUT</string>
+    <string name="control_vocal">VOCAL</string>
+    <string name="control_fixed">Fixed</string>
+
+    <!--UTIL-->
+    <string name="lr_chinese">CN</string>
+    <string name="lr_taiwanese">TW</string>
+    <string name="lr_cantonese">HK</string>
+    <string name="lr_hakka">HA</string>
+    <string name="lr_english">EN</string>
+    <string name="lr_japanese">JP</string>
+    <string name="lr_korean">KR</string>
+    <string name="lr_children">KI</string>
+    <string name="lr_other">OT</string>
+    <string name="lr_aborigine">AB</string>
+    <string name="lr_none" translatable="false">X</string>
+
+    <string name="sr_male">M</string>
+    <string name="sr_female">F</string>
+    <string name="sr_group">G</string>
+    <string name="sr_other">OT</string>
+    <!--SETTINGS-->
+    <string name="title_settings">Settings</string>
+    <string name="pref_header_connect">Connect Settings</string>
+    <string name="key_host" translatable="false">key_host</string>
+    <string name="pref_host">HOST</string>
+    <string name="key_port" translatable="false">key_port</string>
+    <string name="pref_port">PORT</string>
+    <string name="toast_port_error">PORT set must in 1 to 65535</string>
+
+    <string name="pref_header_ui">UI Settings</string>
+    <string name="key_ui_lang" translatable="false">key_ui_lang</string>
+    <string name="pref_ui_lang">Language</string>
+    <string-array name="pref_ui_lang_list" translatable="false">
+        <item>Default</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>中文(簡体)</item>
+        <item>中文(繁體)</item>
+    </string-array>
+    <string-array name="pref_ui_lang_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="key_long_press_cut_song" translatable="false">key_long_press_cut_song</string>
+    <string name="pref_long_press_cut_song">Long press CUT song</string>
+    <string name="key_long_press_replay_song" translatable="false">key_long_press_replay_song</string>
+    <string name="pref_long_press_replay_song">Long press REPLAY song</string>
+    <string name="key_show_control_on_main" translatable="false">key_show_control_on_main</string>
+    <string name="pref_show_control_on_main">Show CUT/VOCAL on Main</string>
+
+    <string name="pref_header_request">Request Settings</string>
+    <string name="key_new_in_days" translatable="false">key_new_in_days</string>
+    <string name="pref_new_in_days">New in days</string>
+    <string name="key_new_in_search_guarantee" translatable="false">key_new_in_search_guarantee</string>
+    <string name="pref_new_in_search_guarantee">New in search guarantee</string>
+    <string name="key_billboard_least_play_count" translatable="false">key_billboard_least_play_count</string>
+    <string name="pref_billboard_least_play_count">Billboard least play count</string>
+    <string name="key_number_length" translatable="false">key_number_length</string>
+    <string name="pref_number_length">Number length</string>
+    <string-array name="pref_number_length_array"  translatable="false">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="key_auto_refresh_queue" translatable="false">key_auto_refresh_queue</string>
+    <string name="pref_auto_refresh_queue">Auto refresh queue</string>
+    <string name="key_queue_refresh_frequency" translatable="false">key_queue_refresh_frequency</string>
+    <string name="pref_queue_refresh_frequency">Queue Refresh frequency</string>
+    <string-array name="pref_refresh_frequency_titles">
+        <item>5 seconds</item>
+        <item>15 seconds</item>
+        <item>1 minutes</item>
+        <item>3 minutes</item>
+    </string-array>
+    <string-array name="pref_refresh_frequency_values"  translatable="false">
+        <item>5</item>
+        <item>15</item>
+        <item>60</item>
+        <item>180</item>
+    </string-array>
+    <string name="default_pref_host" translatable="false">192.168.1.1</string>
+    <string name="default_pref_port" translatable="false">8088</string>
+    <string name="string_restart_app_after_change">This change requires restarting application.</string>
+
+</resources>

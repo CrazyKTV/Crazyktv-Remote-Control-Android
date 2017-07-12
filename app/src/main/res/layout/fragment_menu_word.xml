@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_padding"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_1">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="1"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_1"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_2">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="2"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_2"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_3">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="3"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_3"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_4">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="4"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_4"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_5">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_5"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_6">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="6"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_6"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_7">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="7"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_7"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_8">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="8"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_8"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_9">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="9"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_word_9"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_word_10">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text=">9"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/menu_button_text_size_small"
+                android:text="@string/menu_word_10"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_menu_billboard">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@mipmap/ic_menu_billboard_w" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_billboard"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_menu_new">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@mipmap/ic_menu_new_w" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_new"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

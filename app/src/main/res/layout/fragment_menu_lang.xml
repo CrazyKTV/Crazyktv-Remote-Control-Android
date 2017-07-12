@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_padding"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_chinese">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_chinese"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_chinese"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_taiwanese">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_taiwanese"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_taiwanese"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_cantonese">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_cantonese"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_cantonese"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_japanese">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_japanese"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_japanese"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_english">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_english"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_english"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_korea">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_korean"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_korea"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_hakka">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_hakka"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_hakka"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_aborigine">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_aborigine"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_aborigine"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_children">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_children"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_children"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            style="@style/StyleButton"
+            android:layout_width="@dimen/menu_button_size"
+            android:layout_height="@dimen/menu_button_size"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:paddingTop="@dimen/menu_button_tile_margin"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn_orderby_lang_other">
+
+            <TextView
+                android:layout_width="@dimen/menu_button_tile_size"
+                android:layout_height="@dimen/menu_button_tile_size"
+                android:layout_margin="@dimen/menu_button_tile_margin"
+                android:background="@color/menu_button_tile_bg"
+                android:textColor="@color/menu_button_tile"
+                android:textSize="@dimen/menu_button_tile_text_size"
+                android:text="@string/lr_other"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/menu_button_text_size"
+                android:text="@string/menu_lang_other"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

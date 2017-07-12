@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/list_song_sort"
+        android:title="@string/action_sort"
+        android:orderInCategory="300"
+        android:icon="@mipmap/ic_sort_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_singer_name_asc"
+                    android:title="@string/action_sort_singer_name_asc"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/action_sort_singer_name_desc"
+                    android:title="@string/action_sort_singer_name_desc"/>
+            </group>
+        </menu>
+    </item>
+</menu>

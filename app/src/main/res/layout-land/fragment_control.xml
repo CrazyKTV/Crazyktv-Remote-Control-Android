@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="@dimen/list_padding"
+        android:layout_height="match_parent"
+        android:text="@string/control_cut"
+        android:id="@+id/btn_cut" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_replay"
+        android:src="@mipmap/ic_control_replay_72" />
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_tone_male"
+        android:src="@mipmap/ic_control_tone_male_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_tone_female"
+        android:src="@mipmap/ic_control_tone_female_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_tone_rise"
+        android:src="@mipmap/ic_control_tone_rise_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_tone_natural"
+        android:src="@mipmap/ic_control_tone_natural_72"/>
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_tone_fall"
+        android:src="@mipmap/ic_control_tone_fall_72" />
+
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_play_fr"
+        android:src="@mipmap/ic_control_play_fr_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_play_pause"
+        android:src="@mipmap/ic_control_play_pause_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_play_ff"
+        android:src="@mipmap/ic_control_play_ff_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_vol_down"
+        android:src="@mipmap/ic_control_vol_down_72"/>
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_mute"
+        android:src="@mipmap/ic_control_mute_72" />
+
+    <ImageButton
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_padding"
+        android:id="@+id/btn_vol_up"
+        android:src="@mipmap/ic_control_vol_up_72" />
+
+
+    <Button
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="@dimen/list_padding"
+        android:layout_height="match_parent"
+        android:text="@string/control_fixed"
+        android:id="@+id/btn_fixed" />
+
+    <Button
+        style="@style/StyleButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="@dimen/list_padding"
+        android:layout_height="match_parent"
+        android:text="@string/control_vocal"
+        android:id="@+id/btn_vocal" />
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设定</string>
+	<string name="action_about">关于</string>
+	
+	<!-- TITLE -->
+    <string name="title_number">编号点歌</string>
+    <string name="title_control">播放控制</string>
+	
+    <string name="string_priority">插播</string>
+    <string name="string_request">点播</string>
+    <string name="string_loading">载入中</string>
+	
+    <string name="string_song_empty">查无歌曲</string>
+	<string name="string_singer_empty">查无歌手</string>
+    <string name="string_delete">刪歌</string>
+	
+	<string name="string_request_success">点播成功</string>
+    <string name="string_request_fail">点播失败</string>
+	<string name="string_connection_error">连线错误\n请检查网路设定</string>
+	
+	
+    <string name="menu_singer">歌手点歌</string>
+	<string name="menu_lang">语系点歌</string>
+    <string name="menu_favorite">我的最爱</string>
+    <string name="menu_chorus">合唱歌曲</string>
+    <string name="menu_billboard">排行点歌</string>
+	<string name="menu_search">搜寻</string>
+	<string name="menu_new">新进歌曲</string>
+	
+    <string name="menu_singer_male">男歌星</string>
+    <string name="menu_singer_female">女歌星</string>
+	<string name="menu_singer_foreign_male">外国男歌星</string>
+    <string name="menu_singer_foreign_female">外国女歌星</string>
+    <string name="menu_singer_foreign_group">外国团体</string>
+    <string name="menu_singer_group">团体</string>
+	
+
+    
+    <string name="menu_lang_aborigine">原住民</string>
+    <string name="menu_lang_cantonese">粤语</string>
+    <string name="menu_lang_children">儿歌</string>
+    <string name="menu_lang_other">其它</string>
+    <string name="menu_lang_chinese">国语</string>
+    <string name="menu_lang_taiwanese">台语</string>
+    <string name="menu_lang_english">英语</string>
+    <string name="menu_lang_hakka">客语</string>
+    <string name="menu_lang_japanese">日语</string>
+    <string name="menu_lang_korea">韩语</string>
+    <string name="menu_word_1">一字部</string>
+    <string name="menu_word_2">二字部</string>
+    <string name="menu_word_10">多字部</string>
+    <string name="menu_word_3">三字部</string>
+    <string name="menu_word_4">四字部</string>
+    <string name="menu_word_5">五字部</string>
+    <string name="menu_word_6">六字部</string>
+    <string name="menu_word_7">七字部</string>
+    <string name="menu_word_8">八字部</string>
+    <string name="menu_word_9">九字部</string>
+    <string name="search_song">搜寻歌曲</string>
+    <string name="search_singer">搜寻歌星</string>
+    <string name="control_cut">切歌</string>
+    <string name="control_vocal">伴唱</string>
+    <string name="string_queue">待播清单</string>
+    <string name="string_click_back_one_more_time_to_quit">再按一次返回退出程式</string>
+    
+    <string name="pref_auto_refresh_queue">自动更新待播清单</string>
+    <string name="pref_header_connect">联机设定</string>
+    <string name="pref_header_request">点歌设定</string>
+    <string name="pref_new_in_days">新进歌曲日期</string>
+    <string name="pref_host">主机地址</string>
+    <string name="pref_port">端口</string>
+    <string name="pref_queue_refresh_frequency">待播清单重整间隔</string>
+    <string name="pref_number_length">编号长度</string>
+    <string name="toast_port_error">端口应设定在 1&#8211;65535 之间</string>
+    <string name="sr_female">女</string>
+    <string name="sr_male">男</string>
+    <string name="sr_group">团</string>
+    <string name="sr_other">它</string>
+    <string-array name="pref_refresh_frequency_titles">
+        <item>5 秒</item>
+        <item>15 秒</item>
+        <item>1 分</item>
+        <item>3 分</item>
+    </string-array>
+    <string name="action_shutdown">关机</string>
+    <string name="action_exit">退出</string>
+    <string name="alert_are_you_sure_exit_now">确定要退出?</string>
+    <string name="alert_are_you_sure_shutdown_now">确定要关机?</string>
+    <string name="lr_aborigine">原</string>
+    <string name="pref_new_in_search_guarantee">保证搜寻新进</string>
+    <string name="pref_header_ui">介面设定</string>
+    <string name="pref_long_press_cut_song">长按切歌</string>
+    <string name="pref_billboard_least_play_count">排行榜最少播放次数</string>
+    <string name="pref_long_press_replay_song">长按回放</string>
+
+    <string name="lr_cantonese">粤</string>
+    <string name="lr_children">儿</string>
+    <string name="lr_chinese">国</string>
+    <string name="lr_english">英</string>
+    <string name="lr_hakka">客</string>
+    <string name="lr_japanese">日</string>
+
+    <string name="lr_korean">韩</string>
+    <string name="lr_other">它</string>
+    <string name="lr_taiwanese">台</string>
+    <string name="control_fixed">固定</string>
+    <string name="title_settings">设定</string>
+    <string name="title_queue">待播清单</string>
+    <string name="menu_singer_other">其他歌星</string>
+    <string name="pref_ui_lang">语言</string>
+    <string name="action_sort">排序</string>
+    <string name="action_sort_newest">日期：新到旧</string>
+    <string name="action_sort_oldest">日期：旧到新</string>
+    <string name="action_sort_playcount_asc">点播：低→高</string>
+    <string name="action_sort_playcount_desc">点播：高→低</string>
+    <string name="action_sort_song_name_asc">歌名：顺序</string>
+    <string name="action_sort_song_name_desc">歌名：反序</string>
+    <string name="action_sort_word_asc">字数：少→多</string>
+    <string name="action_sort_word_desc">字数：多→少</string>
+    <string name="string_restart_app_after_change">此操作將在重启后生效</string>
+    <string name="action_sort_singer_name_asc">歌手名：顺序</string>
+    <string name="action_sort_singer_name_desc">歌手名：反序</string>
+    <string name="pref_show_control_on_main">在主画面显示切歌/伴唱</string>
+
+</resources>
